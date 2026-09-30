@@ -1,0 +1,58 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ride-booking-app-e2eb0",
+          "appId": "1:623835382361:android:7c35f92a7ce657a6c92748",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ride-booking-app-e2eb0",
+          "configurations": {
+            "android": "1:623835382361:android:7c35f92a7ce657a6c92748",
+            "ios": "1:623835382361:ios:387bf32bea4842bfc92748",
+            "macos": "1:623835382361:ios:387bf32bea4842bfc92748",
+            "web": "1:623835382361:web:6e3121c449942516c92748",
+            "windows": "1:623835382361:web:dedec9f181cef927c92748"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8081
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}

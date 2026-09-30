@@ -1,0 +1,6 @@
+# Copy these values into android/local.properties.
+# Find them in CleverTap Dashboard > Settings > Project.
+clevertap.accountId=YOUR_CLEVERTAP_PROJECT_ID
+clevertap.token=YOUR_CLEVERTAP_PROJECT_TOKEN
+# Common regions: sg1, in1, us1, aps3, mec1.
+clevertap.region=sg1

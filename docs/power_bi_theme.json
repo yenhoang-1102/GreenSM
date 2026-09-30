@@ -1,0 +1,44 @@
+{
+  "name": "Ride Booking Analytics",
+  "dataColors": [
+    "#19BFC4",
+    "#F2A93B",
+    "#168A62",
+    "#4472C4",
+    "#D9534F",
+    "#7A6FA8",
+    "#6F8587",
+    "#A9DADC"
+  ],
+  "background": "#F7F9FA",
+  "foreground": "#172B2D",
+  "tableAccent": "#19BFC4",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {"solid": {"color": "#172B2D"}},
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {"solid": {"color": "#FFFFFF"}},
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {"solid": {"color": "#DDE5E6"}},
+            "radius": 6
+          }
+        ]
+      }
+    }
+  }
+}
